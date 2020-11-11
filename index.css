@@ -23,3 +23,6 @@ hr{
     font-size: large;
     font-weight: 450;
 }
+.links:hover{
+    color: aliceblue;
+}
