@@ -1,44 +1,27 @@
-.jumbotron{
-    background-image: url("https://images.unsplash.com/photo-1588587786374-ab73fa246083?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
-    background-size: cover; 
-    background-repeat: no-repeat;
-    
+#content{
+    text-align: center;
+    padding-top: 25%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
 }
-.main{
-    width: 80px;
-    border-top: 5px solid rgb(255, 169, 183);
-}
-
-.image {
-    width: 100%;
-    height: 250px;
+body{
+    background: url(https://images.unsplash.com/photo-1477244075012-5cc28286e465?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTI0fHx0ZWNoJTIwYmFja2dyb3VuZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
     background-size: cover;
     background-position: center;
-  }
-
-  .image1{
-    background-image: url("https://lh3.googleusercontent.com/0U5ZlLJxWfhdELeC00D1tf8GvIJaxKF_AYXC-R47mVi60m4buxlcuERZYAaHa3PpLK8Bfg3Reiwq8X_IcOCSee3XgwfNKVtS7V8A0-kWpO5jmZ1iAPSehVu86PM3NJBS90F-x20oO49tMdUi6R8kbdqEOewta_tf_srepHpgz60X1ciNWebDMnlfMguuFWjiyMWrT7OomIL5LzVNSwjIQCKdFFsF4q2L5UWMw5F8PotoRw7qzcMYIxCn2ThgMX97bM-Wd4C4wZS3dMeJoRpj4Pb_S_47deG8-jbILakXanhPRZwf83evSs2W1hulZW6ZTjlCyxy09Cb0WXxgyfSCPITOtVmuO5VUCypLSoyoYXV0sDSynGm9_bS-9jNyl_68fgX-dNQrRH5NpPXMZ60_5UhuWs3KnT_xyuyEPkHszHYWf9oYi0GDAaTQUFq58RuYUkyrTv0Q-4Z7d29NDCyAg3dff-ZIb605hxvaj5-_P_3tdLII3lsTBxlg21pC4rUCuM3Bs13GlMiurd2UyIqmArfAcT5fZKERxEVk-YApIR0WwZrdG-aGy8o8HpgyFtS4BchgxbZ5vjwZrGAxdxkTrwRp-JmUt_W37khI4H1Y1eKQsNkZFU6gnTt-gXPaiC-fmdp_t0rt2HgCE5xKlCT65xSVKop4cUMsFPt0T9TPyGUGcIBm7OOx9s4I6TbYeQ=w637-h848-no?authuser=0");
+    background-repeat: no-repeat;
+    font-family: 'Lato';
+    color:white;
 }
-
-.image2{
-    background-image: url("https://lh3.googleusercontent.com/UXnCUU1Voae8MDWa_C2Vu6rPvjvecDGxne43FQHqxTxqSjvA7myjmnJGoH2TSr_XLQI011vF522iLxDgSRY3ANeSR57mpPCpYgjOEHanY6ymUeWpOnLbRN5t3plsQLECPyzWKkSFDkqv8HA3GaH85FChgrDQmRys4vzMOikltQyLA4H1XyPVOAUFFKVvtuCUAk6f1k9Q2_5zDScsK1T3P0RGON3jiqTH0c6X9n7CL1g0-vmms8GABpTUuOb6d7jsfHcZqptLlwkM56piwkJV4KfH8j5X-DIpeK8KVaErB66aoapCbu8hNtKfIX0x1tFBphxvKoofaG2CTrWoUvibIjO-AyENHDsDO9YnUiGeGMkdQPiMEn5E4U_MWu3RAHZrTbX2DSSvV9ZreP79FHGtsGMhsPukW7F60Wc0eJRIk8b1DTiKt-aOLZqyYtDI8WUiRkihp2jhf1u0mZxoA2rukO0DkrNmuYfr2_9ogq6tWs3m969ISThys2qUtFt2-v5T0e_RS4H_ZEO3cgAeVc6xE7S__ZlfZ0dGeAH4byLVhLUtACu11K4xZDstqxurNeVh2zKkVep-4LAF-AQ3tSOb1hQcSprAxHd5JV0k-sw_rueFcbd2T6m6E3Ba1osa98iLKPiSkwqXnDfE1uhhH6k54MBhsJjbhssgeMbdtwdv1R9dhRWqY8_l9b-cVwIBjg=w1001-h734-no?authuser=0");
+html{
+    height: 100%;
 }
-.image3{
-background-image: url("https://github.com/deepakshisud/Arduino-Based-Multimeter/raw/master/Circuit.png");
+hr{
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
 }
-.image4{
-background-image: url("https://github.com/deepakshisud/No-show-Paitent-analysis-/raw/master/Img/Age.png");
-}
-.image5{
-    background-image: url("https://lh3.googleusercontent.com/fjNoBZ68UDmXqvZy144JjYb5GFN52RaNUzR2MqXaPRDDfnJBo5vpGR37ikqKJZ0XBtXgn7pW-pSxvgbMDzLRkG8C-h_UShfEGpR-MEW7JNxktqw99UrJ9ySQLUw4zfhRYy8nVjpqq1DyZMfbrvcLeBLfdaIFOBr-DMlBTi7AwSgJn41gJpE1A2ZfdH-j7YzYg59nt7PnRXLYEm1A30g0wygQtS2oVLZbbSkMAQOdYF29VP_uLIOa5F0Oy6X4DtfRAJSfBn3Sc0dZbIH0zHjapgAFchZpC6k6-MWqK7e-SZtiWpfRPqlGugFeKFO5bvss_4JCNv16g2mvPDSSSaaOsywroPLL_xwGbQLNSmeKma1bJ2CGQKi5hcpYbVzIZkr55TdvppgMw23dCiSVoIjDbb-Z_r8zX3Fy6dqznOXI9JIb-TD5tzSPvy0lagtrBsdzSl_p3pzq6M81yXqiak1cXaeWf0G4tT2l9lb1jSvHj6vfESA4aCb_z20qSrFrn1CNMFgO02R7dtfFfZY73f_WV1BX3SdkjxcJEqdmBaDJTIoe3XMLFd60K6U4xVjL2vaQYXrwp8_Dr3C1xmXqfLciVR182Rkl2H3-rLWnrRlchb1kAj89UWV8JOae__EcWLPTIrg7H4v08JrsM_5y5NwcwjB-4CEgxmcBMImL5KIObjKy_DAjsUbsoBlKapT_yg=w391-h220-no?authuser=0");
-}
-.progress-bar{
-    background-color: rgb(255, 169, 183);
-}
-.about-me-para{
-    font-size: large;
-    font-weight: 450;
-}
-.links:hover{
-    color: aliceblue;
+h2{
+    font-weight: 700;
+    font-size: 5em;
 }
