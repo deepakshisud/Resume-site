@@ -16,3 +16,8 @@ hr {
     margin-left:0;
     border-top: 1px solid black;
 }
+
+.card {
+    padding-left: 2em;
+    padding-right: 2em;
+}
