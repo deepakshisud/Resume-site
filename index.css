@@ -47,6 +47,27 @@ hr {
 .mic {
     background-image: url('images/MIC.png');
 }
+
+.progress {
+    width: 50%;
+    margin-bottom: 18px;
+}
+
+.SkillGrid{
+    display: inline-block;
+    position: relative;
+    top:0px;
+    padding: 0.5em 0.5em;
+    background: #e0e0e0;
+    margin: 1em 0.5em;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+
+.SkillGrid:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
 .card {
     margin-left: 3em;
     margin-right: 3em;
