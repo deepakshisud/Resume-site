@@ -16,7 +16,37 @@ hr {
     margin-left:0;
     border-top: 1px solid black;
 }
+.image1 {
+    width: 70%;
+    height: 120px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
+.image2 {
+    width: 100%;
+    height: 170px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mlsa {
+    background-image: url('images/MLSA.png');
+}
+
+.jpmorgan {
+    background-image: url('images/jpmorgan.jpg');
+}
+
+.prism {
+    background-image: url('images/prism_logo.png');
+}
+
+.mic {
+    background-image: url('images/MIC.png');
+}
 .card {
     margin-left: 3em;
     margin-right: 3em;
