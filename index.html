@@ -11,26 +11,21 @@
     <link rel="stylesheet" href="index.css">
     <title>Deepakshi's Resume</title>
   </head>
-  <body class="fill">
+  <body>
     <nav class="navbar navbar-expand-lg navbar-light mt-2" style="background-color: white;">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Deepakshi</a>
-            </li>
-        </ul>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Education</a>
+              <a class="nav-link" href="#education">Education</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Experience</a>
+              <a class="nav-link" href="#experience">Experience</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blogposts</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
           </ul>
         </div>
@@ -42,6 +37,12 @@
                 <div class="bd-highlight"><h1>DEEPAKSHI SOOD <br>
                 Student & Developer
                 </h1></div>
+                <div class="col-lg-12 d-flex flex-wrap">
+                  <div class="SkillGrid"><i class="fab fa-linkedin"></i></div>
+                  <div class="SkillGrid"><i class="fas fa-envelope"></i></div>
+                  <div class="SkillGrid"><i class="fab fa-medium"></i></div>
+                  <div class="SkillGrid"><i class="fab fa-twitter-square"></i></div>
+                </div>
                 <hr>
             </div>
             <div class="col-lg-8 col-sm-12 mt-5">
@@ -54,22 +55,23 @@
             </div>
             <div class="col-lg-4 col-md-12 mt-5"> 
                 <div class="d-flex flex-row mt-3">
-                    <div class="col-12 mb-5 d-flex justify-content-start">
+                    <div class="col-12 mb-5 d-flex justify-content-center">
                         <i class="fas fa-print fa-4x"></i>
                         <p class="ml-5 d-flex align-items-end"><a href="https://drive.google.com/file/d/14imZXdOOpq5PezducYnRqaC8ZL9xdjmB/view?usp=sharing"> Resume</a></p>
                     </div>
                 </div>
                 <div class="d-flex flex-row">
-                    <div class="col-12 mb-5 d-flex justify-content-start">
+                    <div class="col-12 mb-5 d-flex justify-content-center">
                         <i class="fab fa-github fa-4x"></i>
                         <p class="ml-5 d-flex align-items-end"><a href="https://github.com/deepakshisud"> Github</a></p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-12 col-md-12">
+              <a name="skills"></a>
                 <p>my skills</p>
                 <div class="d-flex flex-row">
-                  <div class="col-12 mb-2 d-flex justify-content-around mt-3">
+                  <div class="col-md-12 mb-2 d-flex justify-content-around mt-3">
                       <i class="fas fa-laptop-code fa-4x"></i>
                       <i class="fas fa-book fa-4x"></i>
                       <i class="fas fa-code fa-4x"></i>
@@ -77,12 +79,11 @@
                 </div>
                 <div class="d-flex flex-row">
                   <div class="col-12 mb-5 d-flex justify-content-around">
-                      <p>Web development</p>
-                      <p>Arduino IOT</p>
-                      <p>Cloud Computing</p>
+                      <p id="hidden">Web development</p>
+                      <p id="hidden">Arduino IOT</p>
+                      <p id="hidden">Cloud Computing</p>
                   </div>
                 </div>
-                <div class="row">
                   <div class="col-12 offset-3">
                     <h6>Express JS</h6>
                     <div class="progress">
@@ -101,25 +102,48 @@
                       <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
-                  <div class="col-12 d-flex justify-content-around mt-3">
-                    <div class="SkillGrid">CSS</div>
-                    <div class="SkillGrid">Bootstrap 4/5</div>
-                    <div class="SkillGrid">MongoDB</div>
-                    <div class="SkillGrid">Mongoose</div>
-                    <div class="SkillGrid">MySQL</div>
-                    <div class="SkillGrid">Git/Github</div>
-                    <div class="SkillGrid">Firebase</div>
-                    <div class="SkillGrid">Arduino C++</div>
-                    <div class="SkillGrid">Plotly.js</div>
-                    <div class="SkillGrid">Heroku</div>
-                    <div class="SkillGrid">Passport.js</div>
+                    <div class="col-lg-12 d-flex flex-wrap">
+                      <div class="SkillGrid">CSS</div>
+                      <div class="SkillGrid">Bootstrap 4/5</div>
+                      <div class="SkillGrid">Mongoose</div>
+                      <div class="SkillGrid">MySQL</div>
+                      <div class="SkillGrid">Git/Github</div>
+                      <div class="SkillGrid">Firebase</div>
+                      <div class="SkillGrid">Plotly.js</div>
+                      <div class="SkillGrid">Heroku</div>
+                      <div class="SkillGrid">Passport.js</div>
+                    </div>
                   </div>
+            <div class="col-12 mt-3">
+              <a name="education"></a>
+              <p>my education</p>
+              <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col py-4">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <h5 class="card-title">Vellore Institute of Technology, Chennai</h5>
+                      <p class="card-text">I am currently completing my bachelors in Electronics 
+                        and Computer Engineering. I currently have a CGPA of 9.47. I will be
+                        graduating in the year 2022.</p>
+                    </div>
+                    </div>
                 </div>
+                <div class="col py-4">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <h5 class="card-title">Mount Carmel Sr. Src. School, Palampur</h5>
+                      <p class="card-text">I completed my high school with a score of 93.6% in Science Non Medical. I 
+                        was honored to be the Sports Captain and the Flag bearer for the school for the year 2017-18.</p>
+                    </div>
+                    </div>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-12 col-md-12">
-              <p>my projects</p>
-              <div class="card-group">
-                <div class="card" style="width: 18rem;" onclick="window.location.href = 'https://find-a-place.herokuapp.com/';">
+            <div class="col-12 mt-3">
+            <p>my projects</p>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col px-0 py-4">
+                <div class="card h-100 mx-3" onclick="window.location.href = 'https://find-a-place.herokuapp.com/';">
                   <img src="images/Find-a-place.PNG" class="card-img-top " alt="...">
                   <div class="card-body">
                     <p class="card-text">A web service created using ExpressJS, Bootstrap,
@@ -127,14 +151,18 @@
                       the user to find any place on the face of earth.</p>
                   </div>
                 </div>
-                <div class="card" style="width: 18rem;" onclick="window.location.href = 'https://github.com/deepakshisud/Random-Picker-Website';">
+              </div>
+              <div class="col px-0 py-4">
+                <div class="card h-100 mx-3" onclick="window.location.href = 'https://github.com/deepakshisud/Random-Picker-Website';">
                   <img src="images/Random-topic-picker.PNG" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-text">A web application for Writing Assessment Test(WAT) for MBA preparations.
                       Built on Express and node.js with a MongoDB database.</p>
                   </div>
                 </div>
-                <div class="card" style="width: 18rem;" onclick="window.location.href = 'https://github.com/deepakshisud/Javascript-Snake-Game';">
+              </div>
+              <div class="col px-0 py-4">
+                <div class="card h-100 mx-3" onclick="window.location.href = 'https://github.com/deepakshisud/Javascript-Snake-Game';">
                   <img src="images/Snakegame.PNG" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-text">A web based Snakegame made using core Javascript and HTML Canvas. Styled using Bulma
@@ -143,22 +171,26 @@
                   </div>
                 </div>
               </div>
-              <div class="card-group mt-5">
-                <div class="card" style="width: 18rem;" onclick="window.location.href = 'https://github.com/deepakshisud/Arduino-Based-Multimeter';">
+              <div class="col px-0 py-4">
+                <div class="card h-100 mx-3" onclick="window.location.href = 'https://github.com/deepakshisud/Arduino-Based-Multimeter';">
                   <img src="images/Arduino-based-multimeter.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-text">An integrated version of the AVO meter for current, voltage and resistance and LC 
                       meter to measure capacitance and resistance.</p>
                   </div>
                 </div>
-                <div class="card" style="width: 18rem;" onclick="window.location.href = 'https://github.com/deepakshisud/Javascript-Breakout-Game';">
+              </div>
+              <div class="col px-0 py-4">
+                <div class="card h-100 mx-3" onclick="window.location.href = 'https://github.com/deepakshisud/Javascript-Breakout-Game';">
                   <img src="images/breakout-game.PNG" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-text">A web based Breakout Game made using core Javascript and HTML Canvas. Styled using Bulma
                       framework</p>
                   </div>
                 </div>
-                <div class="card" style="width: 18rem;" onclick="window.location.href = 'https://github.com/deepakshisud/ArrowOS';">
+              </div>
+              <div class="col px-0 py-4">
+                <div class="card h-100 mx-3" onclick="window.location.href = 'https://github.com/deepakshisud/ArrowOS';">
                   <img src="images/ArrowOS.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-text">A command-line Operating System built in Visual Studios using Cosmos Development Kit
@@ -169,22 +201,24 @@
                 </div>
               </div>
             </div>
+            </div>
             <div class="col-lg-12 col-sm-12 mt-5">
+              <a name="experience"></a>
               <p>my experience and contributions</p>
             </div>
-            <div class="col-lg-10 col-sm-12 pr-0">
-              <p>Microsoft Learn Student Ambassador</p>
-              <p> I have been a part of the MLSA community for over an year. I have attended over 25 events and hosted them as well. These include Microsft Student Ambassador Summit, Imagine Cup, Microsoft Ignite.</p>
-            </div>
-            <div class="col-lg-2 col-md-12 mt-3 px-0"> 
-              <div class="d-flex flex-row">
-                  <div class="col-12  d-flex justify-content-start align-items-start">
+            <div class="col-lg-2 col-md-12 mt-3 px-0" id="hidden"> 
+              <div class="d-flex flex-row" id="hidden">
+                  <div class="col-12  d-flex justify-content-center align-items-start">
 
                       <div class="image1 mlsa"></div>
                   </div>
               </div>
             </div>
-          <div class="col-lg-2 col-md-12 px-0"> 
+            <div class="col-lg-10 col-sm-12 pr-0">
+              <p>Microsoft Learn Student Ambassador</p>
+              <p> I have been a part of the MLSA community for over an year. I have attended over 25 events and hosted them as well. These include Microsft Student Ambassador Summit, Imagine Cup, Microsoft Ignite.</p>
+            </div>
+          <div class="col-lg-2 col-md-12 px-0" id="hidden"> 
             <div class="d-flex flex-row">
                 <div class="col-12 d-flex justify-content-start align-items-start">
                     <div class="image2 jpmorgan"></div>
@@ -192,10 +226,18 @@
             </div>
           </div>
           <div class="col-lg-10 col-sm-12 pl-0 mt-4">
-            <p class="text-right">SWE Intern at JP Morgan</p>
-            <p class="text-right"> I am an upcoming intern at JP Morgan Chase and Co. I bagged this internship through their
+            <p>SWE Intern at JP Morgan</p>
+            <p> I am an upcoming intern at JP Morgan Chase and Co. I bagged this internship through their
               yearly hackathon "Code for Good", competing with almost 500 students from all over India.
             </p>
+          </div>
+          <div class="col-lg-2 col-md-12 px-0" id="hidden"> 
+            <div class="d-flex flex-row">
+                <div class="col-12 d-flex justify-content-start align-items-start">
+
+                    <div class="image2 prism"></div>
+                </div>
+            </div>
           </div>
           <div class="col-lg-10 col-sm-12 pr-0">
             <p>PRISM Student Developer</p>
@@ -204,15 +246,7 @@
               PRISM is a 6-month long reseach and implementation program by Samsung to help students to work
               with professional mentors from Samsung and use cutting edge technologies.</p>
           </div>
-          <div class="col-lg-2 col-md-12 px-0"> 
-            <div class="d-flex flex-row">
-                <div class="col-12 d-flex justify-content-start align-items-start">
-
-                    <div class="image2 prism"></div>
-                </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-12 px-0"> 
+          <div class="col-lg-2 col-md-12 px-0" id="hidden"> 
             <div class="d-flex flex-row">
                 <div class="col-12 d-flex justify-content-start align-items-start">
                     <div class="image2 mic"></div>
@@ -220,13 +254,14 @@
             </div>
           </div>
           <div class="col-lg-10 col-sm-12 pl-0 mt-4">
-            <p class="text-right">Management Lead - Microsoft Innovations Club, VIT Chennai</p>
-            <p class="text-right"> I initiated a technical club on our campus wherein I act as a Club Lead.  
+            <p>Management Lead - Microsoft Innovations Club, VIT Chennai</p>
+            <p> I initiated a technical club on our campus wherein I act as a Club Lead.  
               Due to the past year's calamities, the community is on an online platform, yet we attempt 
               to bring students together and act as a way to provide value to them even in remote locations. 
               Ideally, we conversate on technology and management.</p>
           </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
