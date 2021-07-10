@@ -9,7 +9,9 @@ body, html {
 .main {
     height: 30%;
 }
-
+.progress-bar{
+    background-color: #FF8C00;
+}
 hr {
     width:90%;
     text-align:left;
